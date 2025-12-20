@@ -391,28 +391,23 @@
             height: 300px;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             background-size: cover;
+            background-position: center;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 80px;
             font-weight: 900;
             color: transparent;
+            position: relative;
+            overflow: hidden;
         }
 
-        .project-image-1 {
-            background-image: url('./1.jpg');
-        }
-
-        .project-image-2 {
-            background-image: url('./2.webp');
-        }
-
-        .project-image-3 {
-            background-image: url('./3.webp');
-        }
-
-        .project-image-4 {
-            background-image: url('./4.webp');
+        .project-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            display: block;
         }
 
         .project-info {
@@ -661,7 +656,7 @@
                     <!-- BTL Projects -->
                     <div class="project-card" data-type="btl"
                         onclick="window.open('https://www.behance.net/gallery/219256293/Activacion-Pfizer', '_blank')">
-                        <div class="project-image" style="background-image: url('https://mir-s3-cdn-cf.behance.net/projects/404/a0b8b1219256293.Y3JvcCwyNzYxLDIxNjAsMTE2LDA.jpg');"></div>
+                        <div class="project-image"><img src="./images/project-1-pfizer-sm.jpg" srcset="./images/project-1-pfizer-sm.jpg 400w, ./images/project-1-pfizer-md.jpg 800w, ./images/project-1-pfizer-lg.jpg 1200w" sizes="(max-width: 768px) 100vw, 50vw" alt="Activación Pfizer"></div>
                         <div class="project-info">
                             <h3 class="lang-es active">Activación Pfizer</h3>
                             <h3 class="lang-en">Pfizer Activation</h3>
@@ -672,7 +667,7 @@
 
                     <div class="project-card" data-type="btl"
                         onclick="window.open('https://www.behance.net/gallery/204762429/Mobil-Stand-ExpoManufactura', '_blank')">
-                        <div class="project-image" style="background-image: url('https://mir-s3-cdn-cf.behance.net/projects/404/7ac97e204762429.Y3JvcCwxMTMzLDg4NiwwLDIxOTA.jpg');"></div>
+                        <div class="project-image"><img src="./images/project-2-mobil-sm.jpg" srcset="./images/project-2-mobil-sm.jpg 400w, ./images/project-2-mobil-md.jpg 800w, ./images/project-2-mobil-lg.jpg 1200w" sizes="(max-width: 768px) 100vw, 50vw" alt="Mobil Stand ExpoManufactura"></div>
                         <div class="project-info">
                             <h3 class="lang-es active">Mobil | Stand ExpoManufactura</h3>
                             <h3 class="lang-en">Mobil | ExpoManufactura Stand</h3>
@@ -683,7 +678,7 @@
 
                     <div class="project-card" data-type="btl"
                         onclick="window.open('https://www.behance.net/gallery/70841851/Creatividad-BTL', '_blank')">
-                        <div class="project-image" style="background-image: url('https://mir-s3-cdn-cf.behance.net/projects/404/c334ca70841851.6674e6539ea8c.jpg');"></div>
+                        <div class="project-image"><img src="./images/project-3-btl-sm.jpg" srcset="./images/project-3-btl-sm.jpg 400w, ./images/project-3-btl-md.jpg 800w, ./images/project-3-btl-lg.jpg 1200w" sizes="(max-width: 768px) 100vw, 50vw" alt="Creatividad BTL"></div>
                         <div class="project-info">
                             <h3 class="lang-es active">Creatividad BTL</h3>
                             <h3 class="lang-en">BTL Creativity</h3>
@@ -694,7 +689,7 @@
 
                     <div class="project-card" data-type="btl"
                         onclick="window.open('https://www.behance.net/gallery/202009697/Experiencia-Mobil-Trackside-F1', '_blank')">
-                        <div class="project-image" style="background-image: url('https://mir-s3-cdn-cf.behance.net/projects/404/55357d202009697.Y3JvcCw1NzYsNDUwLDYxLDQ3Mg.jpg');"></div>
+                        <div class="project-image"><img src="./images/project-4-mobil-f1-sm.jpg" srcset="./images/project-4-mobil-f1-sm.jpg 400w, ./images/project-4-mobil-f1-md.jpg 800w, ./images/project-4-mobil-f1-lg.jpg 1200w" sizes="(max-width: 768px) 100vw, 50vw" alt="Experiencia Mobil Trackside F1"></div>
                         <div class="project-info">
                             <h3 class="lang-es active">Experiencia Mobil Trackside F1</h3>
                             <h3 class="lang-en">Mobil Trackside F1 Experience</h3>
@@ -706,7 +701,7 @@
                     <!-- Branding & Packaging Projects -->
                     <div class="project-card" data-type="branding"
                         onclick="window.open('https://www.behance.net/gallery/147730735/Nestl-HealthScience-Boost', '_blank')">
-                        <div class="project-image" style="background-image: url('https://mir-s3-cdn-cf.behance.net/projects/404/c5e5c5147730735.Y3JvcCw2NDEsNTAxLDQ5LDM4.jpg');"></div>
+                        <div class="project-image"><img src="./images/project-5-nestle-boost-sm.jpg" srcset="./images/project-5-nestle-boost-sm.jpg 400w, ./images/project-5-nestle-boost-md.jpg 800w, ./images/project-5-nestle-boost-lg.jpg 1200w" sizes="(max-width: 768px) 100vw, 50vw" alt="Nestlé HealthScience Boost"></div>
                         <div class="project-info">
                             <h3 class="lang-es active">Nestlé HealthScience Boost</h3>
                             <h3 class="lang-en">Nestlé HealthScience Boost</h3>
@@ -717,7 +712,7 @@
 
                     <div class="project-card" data-type="branding"
                         onclick="window.open('https://www.behance.net/gallery/88855017/Creatividad-Gerber', '_blank')">
-                        <div class="project-image" style="background-image: url('https://mir-s3-cdn-cf.behance.net/projects/404/9d9d4f88855017.Y3JvcCw2NDEsNTAxLDAsMjA2.jpg');"></div>
+                        <div class="project-image"><img src="./images/project-6-gerber-sm.jpg" srcset="./images/project-6-gerber-sm.jpg 400w, ./images/project-6-gerber-md.jpg 800w, ./images/project-6-gerber-lg.jpg 1200w" sizes="(max-width: 768px) 100vw, 50vw" alt="Creatividad Gerber"></div>
                         <div class="project-info">
                             <h3 class="lang-es active">Creatividad Gerber</h3>
                             <h3 class="lang-en">Gerber Creativity</h3>
@@ -728,7 +723,7 @@
 
                     <div class="project-card" data-type="branding"
                         onclick="window.open('https://www.behance.net/gallery/75366725/Rediseno-AES', '_blank')">
-                        <div class="project-image" style="background-image: url('https://mir-s3-cdn-cf.behance.net/projects/404/881d1975366725.6674e5c643482.jpg');"></div>
+                        <div class="project-image"><img src="./images/project-7-aes-sm.jpg" srcset="./images/project-7-aes-sm.jpg 400w, ./images/project-7-aes-md.jpg 800w, ./images/project-7-aes-lg.jpg 1200w" sizes="(max-width: 768px) 100vw, 50vw" alt="Rediseño AES"></div>
                         <div class="project-info">
                             <h3 class="lang-es active">Rediseño AES</h3>
                             <h3 class="lang-en">AES Redesign</h3>
@@ -739,7 +734,7 @@
 
                     <div class="project-card" data-type="branding"
                         onclick="window.open('https://www.behance.net/gallery/113063627/Nestl-Maternal-Nutrition-Nueva-imagen', '_blank')">
-                        <div class="project-image" style="background-image: url('https://mir-s3-cdn-cf.behance.net/projects/404/717e7c113063627.Y3JvcCw1MTgsNDA1LDM5OCwxMjE.jpg');"></div>
+                        <div class="project-image"><img src="./images/project-8-nestle-maternal-sm.jpg" srcset="./images/project-8-nestle-maternal-sm.jpg 400w, ./images/project-8-nestle-maternal-md.jpg 800w, ./images/project-8-nestle-maternal-lg.jpg 1200w" sizes="(max-width: 768px) 100vw, 50vw" alt="Nestlé Maternal Nutrition"></div>
                         <div class="project-info">
                             <h3 class="lang-es active">Nestlé Maternal Nutrition</h3>
                             <h3 class="lang-en">Nestlé Maternal Nutrition</h3>
@@ -750,7 +745,7 @@
 
                     <div class="project-card" data-type="branding"
                         onclick="window.open('https://www.behance.net/gallery/55282151/Empaques', '_blank')">
-                        <div class="project-image" style="background-image: url('https://mir-s3-cdn-cf.behance.net/projects/404/ee882455282151.Y3JvcCwxMTE3LDg3NCwyMjEsMjQ2.jpg');"></div>
+                        <div class="project-image"><img src="./images/project-9-empaques-sm.jpg" srcset="./images/project-9-empaques-sm.jpg 400w, ./images/project-9-empaques-md.jpg 800w, ./images/project-9-empaques-lg.jpg 1200w" sizes="(max-width: 768px) 100vw, 50vw" alt="Empaques"></div>
                         <div class="project-info">
                             <h3 class="lang-es active">Empaques</h3>
                             <h3 class="lang-en">Packaging</h3>
@@ -762,7 +757,7 @@
                     <!-- Brand Communication Projects -->
                     <div class="project-card" data-type="comunicacion"
                         onclick="window.open('https://www.behance.net/gallery/88852679/Campana-App-MetLife-Contigo', '_blank')">
-                        <div class="project-image" style="background-image: url('https://mir-s3-cdn-cf.behance.net/projects/404/22d41388852679.Y3JvcCwxMjAwLDkzOCwwLDE5Ng.jpg');"></div>
+                        <div class="project-image"><img src="./images/project-10-metlife-sm.jpg" srcset="./images/project-10-metlife-sm.jpg 400w, ./images/project-10-metlife-md.jpg 800w, ./images/project-10-metlife-lg.jpg 1200w" sizes="(max-width: 768px) 100vw, 50vw" alt="Campaña App MetLife Contigo"></div>
                         <div class="project-info">
                             <h3 class="lang-es active">Campaña App MetLife Contigo</h3>
                             <h3 class="lang-en">MetLife Contigo App Campaign</h3>
@@ -773,7 +768,7 @@
 
                     <div class="project-card" data-type="comunicacion"
                         onclick="window.open('https://www.behance.net/gallery/55282551/Digital', '_blank')">
-                        <div class="project-image" style="background-image: url('https://mir-s3-cdn-cf.behance.net/projects/404/851a5e55282551.Y3JvcCw0MDQsMzE2LDAsMA.jpg');"></div>
+                        <div class="project-image"><img src="./images/project-11-digital-sm.jpg" srcset="./images/project-11-digital-sm.jpg 400w, ./images/project-11-digital-md.jpg 800w, ./images/project-11-digital-lg.jpg 1200w" sizes="(max-width: 768px) 100vw, 50vw" alt="Digital"></div>
                         <div class="project-info">
                             <h3 class="lang-es active">Digital</h3>
                             <h3 class="lang-en">Digital</h3>
@@ -785,7 +780,7 @@
                     <!-- Lettering & Editorial Projects -->
                     <div class="project-card" data-type="lettering"
                         onclick="window.open('https://www.behance.net/gallery/55281889/Seleccion-Editorial', '_blank')">
-                        <div class="project-image" style="background-image: url('https://mir-s3-cdn-cf.behance.net/projects/404/1a296855281889.Y3JvcCw3MzAsNTcyLDQ1MSw1MA.jpg');"></div>
+                        <div class="project-image"><img src="./images/project-12-editorial-sm.jpg" srcset="./images/project-12-editorial-sm.jpg 400w, ./images/project-12-editorial-md.jpg 800w, ./images/project-12-editorial-lg.jpg 1200w" sizes="(max-width: 768px) 100vw, 50vw" alt="Selección Editorial"></div>
                         <div class="project-info">
                             <h3 class="lang-es active">Selección Editorial</h3>
                             <h3 class="lang-en">Editorial Selection</h3>
@@ -796,7 +791,7 @@
 
                     <div class="project-card" data-type="lettering"
                         onclick="window.open('https://www.behance.net/gallery/47893587/Insultos-bonitos', '_blank')">
-                        <div class="project-image" style="background-image: url('https://mir-s3-cdn-cf.behance.net/projects/404/2a812247893587.5a988a655ecfd.jpg');"></div>
+                        <div class="project-image"><img src="./images/project-13-insultos-sm.jpg" srcset="./images/project-13-insultos-sm.jpg 400w, ./images/project-13-insultos-md.jpg 800w, ./images/project-13-insultos-lg.jpg 1200w" sizes="(max-width: 768px) 100vw, 50vw" alt="Insultos Bonitos"></div>
                         <div class="project-info">
                             <h3 class="lang-es active">Insultos Bonitos</h3>
                             <h3 class="lang-en">Pretty Insults</h3>
@@ -807,7 +802,7 @@
 
                     <div class="project-card" data-type="lettering"
                         onclick="window.open('https://www.behance.net/gallery/75028483/Lettering', '_blank')">
-                        <div class="project-image" style="background-image: url('https://mir-s3-cdn-cf.behance.net/projects/404/347d9775028483.5c410272ee8cb.jpg');"></div>
+                        <div class="project-image"><img src="./images/project-14-lettering-sm.jpg" srcset="./images/project-14-lettering-sm.jpg 400w, ./images/project-14-lettering-md.jpg 800w, ./images/project-14-lettering-lg.jpg 1200w" sizes="(max-width: 768px) 100vw, 50vw" alt="Lettering"></div>
                         <div class="project-info">
                             <h3 class="lang-es active">Lettering</h3>
                             <h3 class="lang-en">Lettering</h3>
@@ -818,7 +813,7 @@
 
                     <div class="project-card" data-type="lettering"
                         onclick="window.open('https://www.behance.net/gallery/33896648/Mis-letras', '_blank')">
-                        <div class="project-image" style="background-image: url('https://mir-s3-cdn-cf.behance.net/projects/404/d7027633896648.5c410193985f2.jpg');"></div>
+                        <div class="project-image"><img src="./images/project-15-misletras-sm.jpg" srcset="./images/project-15-misletras-sm.jpg 400w, ./images/project-15-misletras-md.jpg 800w, ./images/project-15-misletras-lg.jpg 1200w" sizes="(max-width: 768px) 100vw, 50vw" alt="Mis Letras"></div>
                         <div class="project-info">
                             <h3 class="lang-es active">Mis Letras</h3>
                             <h3 class="lang-en">My Letters</h3>
@@ -829,7 +824,7 @@
 
                     <div class="project-card" data-type="branding"
                         onclick="window.open('https://www.behance.net/gallery/55282329/Logos-Identidad-Corporativa', '_blank')">
-                        <div class="project-image" style="background-image: url('https://mir-s3-cdn-cf.behance.net/projects/404/24f22455282329.Y3JvcCwxMDI1LDgwMiwxNTksMA.jpg');"></div>
+                        <div class="project-image"><img src="./images/project-16-logos-sm.jpg" srcset="./images/project-16-logos-sm.jpg 400w, ./images/project-16-logos-md.jpg 800w, ./images/project-16-logos-lg.jpg 1200w" sizes="(max-width: 768px) 100vw, 50vw" alt="Logos e Identidad Corporativa"></div>
                         <div class="project-info">
                             <h3 class="lang-es active">Logos e Identidad Corporativa</h3>
                             <h3 class="lang-en">Logos & Corporate Identity</h3>
