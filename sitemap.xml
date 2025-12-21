@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:hreflang="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://crisreyes.es/</loc>
+    <lastmod>2025-12-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <hreflang:link rel="alternate" hreflang="es" href="https://crisreyes.es/"/>
+    <hreflang:link rel="alternate" hreflang="es-ES" href="https://crisreyes.es/"/>
+    <hreflang:link rel="alternate" hreflang="es-MX" href="https://crisreyes.es/"/>
+    <hreflang:link rel="alternate" hreflang="en" href="https://crisreyes.es/?lang=en"/>
+    <hreflang:link rel="alternate" hreflang="x-default" href="https://crisreyes.es/"/>
+  </url>
+  <url>
+    <loc>https://crisreyes.es/#about</loc>
+    <lastmod>2025-12-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://crisreyes.es/#projects</loc>
+    <lastmod>2025-12-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://crisreyes.es/#contact</loc>
+    <lastmod>2025-12-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

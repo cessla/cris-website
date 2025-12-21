@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Allow: /images/
+Allow: /*.css$
+Allow: /*.js$
+Disallow: 
+
+Sitemap: https://crisreyes.es/sitemap.xml
+
+# Crawl delay and request rate
+Crawl-delay: 1
+Request-rate: 1/1s
+
+# Allow Google, Bing, and other search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: baiduspider
+Allow: /
