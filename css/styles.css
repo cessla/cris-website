@@ -228,7 +228,7 @@ section {
 }
 
 .hero-content p {
-    font-size: clamp(18px, 3vw, 36px);
+    font-size: clamp(32px, 5vw, 56px);
     font-weight: 900;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -569,6 +569,14 @@ section {
 .lang-es,
 .lang-en {
     display: none;
+}
+
+.contact-subtitle {
+    font-size: clamp(18px, 3vw, 32px);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    margin-bottom: 40px;
 }
 
 .lang-es.active,
